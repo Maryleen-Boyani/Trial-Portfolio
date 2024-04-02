@@ -3,9 +3,13 @@ export default {
   content: [
     './src/App.jsx',
     './src/components/Navbar/Navbar.jsx',
-    './src/**/*.{js,jsx,ts,tsx}'
+    './src/**/* .{js,jsx,ts,tsx}'
   ],
   theme: {
+    fontFamily:{
+      sans: ['dancing script'],
+      serif: ['ui-serif', 'Georgia'],
+    },
 
     screens:{
       'sm': '640px',
