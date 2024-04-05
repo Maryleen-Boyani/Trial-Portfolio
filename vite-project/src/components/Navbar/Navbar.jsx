@@ -10,10 +10,10 @@ export const Navbar=()=>{
 
     
     return(
-        <div className="">
-            <header className="flex h-14 justify-between p-2 ">
+        <div className="bg-green-200">
+            <header className="flex h-14 justify-between p-2  ">
                 <img className="w-8 h-8"src="../../../public/assets/images/logo.png" alt="Logo" />
-                <nav ref={NavRef} className="justify-centre font-serif text-xl">
+                <nav ref={NavRef} className="justify-centre font-serif text-xl bg-pink-500">
                     <a href="/" className="text-black p-2 hover:text-purple-700 hover:underline offset-4">Home</a>
                     <a href="/services" className="text-black p-2 hover:text-purple-700 hover:underline offset-4 " >Services</a>
                     <a href="/skills" className="text-black p-2 hover:text-purple-700 hover:underline offset-4 ">Skills</a>
