@@ -7,7 +7,7 @@ export default {
   ],
   theme: {
     fontFamily:{
-      sans: ['Sora, dancing script'],
+      sans: ['Sora'],
       serif: ['ui-serif', 'Georgia'],
     },
 
